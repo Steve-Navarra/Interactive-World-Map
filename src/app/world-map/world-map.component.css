@@ -1,0 +1,30 @@
+.map-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: auto;
+}
+.map-container{
+    flex: 1;
+}
+.map-container img {
+    width: 100%;
+    height: auto;
+}
+.map-details {
+    flex-shrink: 0;
+    width: 150px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px; 
+}
+path {
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out;
+}
+
+path:hover {
+    fill: #c2b490 !important; /* Changes color on hover */
+}
